@@ -11,7 +11,59 @@
     <title>FaC Application Site</title>
 </head>
 <body>
-    <h1>FaC Application WebSite</h1>
+    <header>
+        <nav>
+            <ul id="nav-ul">
+                <li class='nav-list-item'><a href="#" class="nav-link">Home</a></li>
+                <li class='nav-list-item'><a href="#about-section"class="nav-link">About</a></li>
+                <li class='nav-list-item'><a href="#gallery-section"class="nav-link">Project Gallery</a></li>
+                <li class='nav-list-item'><a href="#feature-section"class="nav-link">Feature</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id='hero-section' class='section'>
+        <h1>FaC Application WebSite</h1>
+    </section>
+    <section id='about-section' class='section'>
+        <h2>Hi! I'm Andrei</h2>
+        <p>I'm a web developer</p>
+    </section>
+    <section id='gallery-section' class='section'>
+        <div class='container'>
+            <h2 class='section-title'>Flexbox Project Gallery</h2>
+        </div>
+        <div class='container'>
+            <a href="https://andreibtc84.github.io/FaC-DOM-manipulation/">
+                <div class='flex-item'>
+                    <img class="image" src="https://image.thum.io/get/width/300/crop/800/https://andreibtc84.github.io/FaC-DOM-manipulation/" />
+                    <h2 class="project-title">DOM Project</h2>
+                    <p class="project-description">Project description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quis quisquam! Dicta asperiores reiciendis fugit sit facere quae. Non culpa vel animi magni perferendis. Exercitationem facere dolor odio debitis possimus?</p>
+                </div>
+            </a>
+            <a href="https://andreibtc84.github.io/FaC-Arrays/">
+                <div class='flex-item'>
+                    <img class="image" src="https://image.thum.io/get/width/300/crop/800/https://andreibtc84.github.io/FaC-Arrays/" />
+                    <h2 class="project-title">Arrays Project</h2>
+                    <p class="project-description">Project description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quis quisquam! Dicta asperiores reiciendis fugit sit facere quae. Non culpa vel animi magni perferendis. Exercitationem facere dolor odio debitis possimus?</p>
+                </div>
+            </a>
+            <a href="https://andreibtc84.github.io/FaC-Flexbox/">
+                <div class='flex-item'>
+                    <img class="image" src="https://image.thum.io/get/width/300/crop/800/https://andreibtc84.github.io/FaC-Flexbox/" />
+                    <h2 class="project-title">Flexbox Gallery</h2>
+                    <p class="project-description">Project description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, natus? Ea, provident. Possimus ad fuga et eos quas molestias repudiandae, sapiente optio consectetur, nobis maxime eum eligendi rerum reiciendis tempora.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id='feature-section' class='section'>
+        <h2>This is the feature I created</h2>
+        <p>It does this and that</p>
+    </section>
+    <footer id='footer'>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Andrei Butuc. All Rights Reserved</p>
+    </footer>
+   
 
 
     <script src="app.js"></script>

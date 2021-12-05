@@ -1,8 +1,116 @@
 body {
   background-color: rgb(235, 234, 234);
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
-
 h1 {
   font-size: 3em;
+}
+
+/* Navigation */
+
+#nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list-item {
+  list-style-type: none;
+  margin: 2em;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-link:hover {
+  color: #0a6cff;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid #0a6cff;
+}
+/* General section styles */
+.section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 100vh;
+  padding: 5vh;
+}
+
+/* Hero section */
+#hero-section {
+  background-color: cadetblue;
+}
+
+/* About section */
+#about-section {
+  background-color: #b9d388;
+}
+/* Project gallery section */
+#gallery-section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+  max-width: 300px;
+  height: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+.flex-item:hover {
+  /* border: 1px solid black; */
+  color: rgb(15, 70, 189);
+  box-shadow: rgba(15, 70, 189, 0.19) 0px 10px 20px,
+    rgba(15, 70, 189, 0.23) 0px 6px 6px;
+}
+
+.project-title,
+.project-description,
+.image {
+  margin: 5px;
+}
+
+/* Feature section */
+
+#feature-section {
+  background-color: #b1cc74;
+}
+
+/* Footer */
+
+#footer {
+  display: flex;
+  flex-wrap: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #545f66;
+  height: 20vh;
 }
