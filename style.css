@@ -104,7 +104,7 @@ a:visited {
   padding: 15px;
   margin: 10px;
   background-color: whitesmoke;
-  min-height: 500px;
+  min-height: 300px;
 }
 .flex-item:hover {
   color: rgb(37, 79, 171);
@@ -164,7 +164,7 @@ a:visited {
 
 #footer {
   display: flex;
-  flex-wrap: row wrap;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
   background-color: #545f66;
