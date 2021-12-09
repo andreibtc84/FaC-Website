@@ -106,6 +106,7 @@ a:visited {
   background-color: whitesmoke;
   min-height: 300px;
 }
+
 .flex-item:hover {
   color: rgb(37, 79, 171);
   box-shadow: rgba(15, 70, 189, 0.19) 0px 10px 20px,
@@ -115,8 +116,12 @@ a:visited {
 
 .project-title,
 .project-description,
-.image {
+#codecamp {
   margin: 5px;
+}
+
+.flex-item-list {
+  list-style: none;
 }
 
 /* Feature section */
