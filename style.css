@@ -68,8 +68,6 @@ header {
   font-size: 2em;
 }
 
-/* Hero section */
-
 /* About section */
 
 #about-section > p {
@@ -83,7 +81,7 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 a {
   text-decoration: none;
@@ -109,8 +107,8 @@ a:visited {
 
 .flex-item:hover {
   color: rgb(37, 79, 171);
-  box-shadow: rgba(15, 70, 189, 0.19) 0px 10px 20px,
-    rgba(15, 70, 189, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   transition: 0.5s ease;
 }
 
@@ -174,4 +172,26 @@ a:visited {
   justify-content: center;
   background-color: #545f66;
   height: 20vh;
+}
+
+/* Prep work section  */
+
+.link-card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid black;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  min-height: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+.link-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.5s ease;
 }
