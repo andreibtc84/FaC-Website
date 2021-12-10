@@ -38,6 +38,7 @@ header {
 .nav-list-item {
   list-style-type: none;
   margin: 1rem;
+  color: #545f66;
 }
 .nav-link {
   text-decoration: none;
@@ -51,7 +52,7 @@ header {
   font-weight: bold;
   font-size: 1.2em;
   border-bottom: 1px solid #0a6cff;
-  transition: 0.4s ease;
+  transition: 0.7s ease;
 }
 /* General section styles */
 .section {
@@ -106,10 +107,10 @@ a:visited {
 }
 
 .flex-item:hover {
-  color: rgb(37, 79, 171);
+  color: #545f66;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  transition: 0.5s ease;
+  transition: 1s ease;
 }
 
 .project-title,
@@ -159,8 +160,10 @@ a:visited {
 }
 
 #btn:hover {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 1s ease;
+  background-color: #80bab9;
 }
 
 /* Footer */
@@ -171,7 +174,7 @@ a:visited {
   align-items: center;
   justify-content: center;
   background-color: #545f66;
-  height: 20vh;
+  height: 10vh;
 }
 
 /* Prep work section  */
